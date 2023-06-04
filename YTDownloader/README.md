@@ -18,7 +18,9 @@ YTDownloader : A Youtube/Youtube Playlist downloader using yt-dlp library
   - `python YTDownloader.py `
 
 ## Command
-`python YTDownloader.py -h`
+```
+python YTDownloader.py -h
+```
 
 ```
   -h, --help            show this help message and exit
