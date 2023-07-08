@@ -30,7 +30,7 @@ def download_video(url, resolution, output_format, path):
         ydl.download([url])
 
 def download_audio(url, output_codec, path):
-    output_folder = os.path.join(path, 'Media_Downloads')
+    output_folder = os.path.join(path, 'YTDownloader_Downloads')
     os.makedirs(output_folder, exist_ok=True)
 
     ydl_opts = {
